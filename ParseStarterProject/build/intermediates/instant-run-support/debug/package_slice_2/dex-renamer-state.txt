@@ -1,4 +1,4 @@
-#Tue Mar 31 10:25:55 HST 2020
+#Tue Mar 31 13:22:34 HST 2020
 base.0=C\:\\Users\\russe\\AndroidStudioProjects\\TwitterClone\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

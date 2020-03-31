@@ -5,38 +5,45 @@
     build-mode="FULL"
     density="420dpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.0.1"
-    timestamp="1585687644456"
+    timestamp="1585696898891"
     token="-472617135818564185"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="12782" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="1643" />
     <task
         name="verifier"
-        duration="0" />
+        duration="785" />
 
     <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -45,16 +52,10 @@
         location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\outputs\apk\debug\ParseStarterProject-debug.apk"
@@ -62,22 +63,29 @@
 
     <build
         build-mode="FULL"
-        timestamp="1585687644456"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1585696898891"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -86,16 +94,10 @@
             location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\russe\AndroidStudioProjects\TwitterClone\ParseStarterProject\build\outputs\apk\debug\ParseStarterProject-debug.apk"
