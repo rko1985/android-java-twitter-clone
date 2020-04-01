@@ -30,7 +30,7 @@ public class UsersActivity extends AppCompatActivity {
 
         setTitle("User List");
 
-        ListView listView = findViewById(R.id.listView);
+        final ListView listView = findViewById(R.id.listView);
         listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_checked, users);
@@ -42,9 +42,15 @@ public class UsersActivity extends AppCompatActivity {
                 CheckedTextView checkedTextView = (CheckedTextView) view;
                 if(checkedTextView.isChecked()){
                     Log.i("Info", "Checked!");
+                    ParseUser.getCurrentUser().add("isFollowing", users.get(i));
                 } else {
                     Log.i("Info", "NOT Checked!");
+                    ParseUser.getCurrentUser().getList("isFollowing").remove(users.get(i));
+                    List tempUsers = ParseUser.getCurrentUser().getList("isFollowing");
+                    ParseUser.getCurrentUser().remove("isFollowing");
+                    ParseUser.getCurrentUser().put("isFollowing", tempUsers);
                 }
+                ParseUser.getCurrentUser().saveInBackground();
             }
         });
 
@@ -59,6 +65,11 @@ public class UsersActivity extends AppCompatActivity {
                         users.add(user.getUsername());
                     }
                     adapter.notifyDataSetChanged();
+                    for(String username : users){
+                        if(ParseUser.getCurrentUser().getList("isFollowing").contains(username)){
+                            listView.setItemChecked(users.indexOf(username), true);
+                        }
+                    }
                 }
             }
         });
