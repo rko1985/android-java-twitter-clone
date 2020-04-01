@@ -28,6 +28,13 @@ import com.parse.SignUpCallback;
 
 public class MainActivity extends AppCompatActivity {
 
+  public void redirectUsers(){
+    if(ParseUser.getCurrentUser() != null){
+      Intent intent = new Intent(getApplicationContext(), UsersActivity.class);
+      startActivity(intent);
+    }
+  }
+
   public void signupLogin(View view){
       final EditText usernameEditText = findViewById(R.id.usernameEditText);
       final EditText passwordEditText = findViewById(R.id.passwordEditText);
@@ -38,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
           if(e == null){
             //Login successful
             Log.i("Login", "Success!");
+            redirectUsers();
           } else {
             //Create new account
             ParseUser newUser = new ParseUser();
@@ -49,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
               public void done(ParseException e) {
                 if(e == null){
                   Log.i("Signup", "Success!");
+                  redirectUsers();
                 } else {
                   Toast.makeText(MainActivity.this, e.getMessage().substring(e.getMessage().indexOf(" ")), Toast.LENGTH_SHORT).show();
                 }
@@ -65,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
 
     setTitle("Twitter: Login");
+    redirectUsers();
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
