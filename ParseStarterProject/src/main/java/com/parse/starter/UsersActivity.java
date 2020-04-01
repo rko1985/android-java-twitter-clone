@@ -10,7 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
 
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
+
 import java.util.ArrayList;
+import java.util.List;
 
 public class UsersActivity extends AppCompatActivity {
 
@@ -23,9 +29,6 @@ public class UsersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_users);
 
         setTitle("User List");
-
-        users.add("Nick");
-        users.add("Sara");
 
         ListView listView = findViewById(R.id.listView);
         listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
@@ -41,6 +44,21 @@ public class UsersActivity extends AppCompatActivity {
                     Log.i("Info", "Checked!");
                 } else {
                     Log.i("Info", "NOT Checked!");
+                }
+            }
+        });
+
+        ParseQuery<ParseUser> query = ParseUser.getQuery();
+
+        query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.findInBackground(new FindCallback<ParseUser>() {
+            @Override
+            public void done(List<ParseUser> objects, ParseException e) {
+                if(e == null && objects.size() > 0){
+                    for(ParseUser user : objects){
+                        users.add(user.getUsername());
+                    }
+                    adapter.notifyDataSetChanged();
                 }
             }
         });
