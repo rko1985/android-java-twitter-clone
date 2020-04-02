@@ -1277,28 +1277,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\russe\\AndroidStudioProjects\\TwitterClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\values-ml-rIN_values-ml-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\russe\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\eba2b28fb8bca8c4ed73ec9254bad393\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "282,399,517,636,744,870,984,1086,1207,1320,1408",
-                        "endColumns": "116,117,118,107,125,113,101,120,112,87,95",
-                        "endOffsets": "394,512,631,739,865,979,1081,1202,1315,1403,1499"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,172,290,409,517,643,757,859,980,1093,1181",
-                        "endColumns": "116,117,118,107,125,113,101,120,112,87,95",
-                        "endOffsets": "167,285,404,512,638,752,854,975,1088,1176,1272"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\russe\\AndroidStudioProjects\\TwitterClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\values-es_values-es.arsc.flat",
             "map": [
                 {
@@ -1435,6 +1413,28 @@
                         "startOffsets": "10412",
                         "endColumns": "106",
                         "endOffsets": "10514"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\russe\\AndroidStudioProjects\\TwitterClone\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\values-ml-rIN_values-ml-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\russe\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-23.0.0.aar\\eba2b28fb8bca8c4ed73ec9254bad393\\res\\values-ml-rIN\\values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "282,399,517,636,744,870,984,1086,1207,1320,1408",
+                        "endColumns": "116,117,118,107,125,113,101,120,112,87,95",
+                        "endOffsets": "394,512,631,739,865,979,1081,1202,1315,1403,1499"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,172,290,409,517,643,757,859,980,1093,1181",
+                        "endColumns": "116,117,118,107,125,113,101,120,112,87,95",
+                        "endOffsets": "167,285,404,512,638,752,854,975,1088,1176,1272"
                     }
                 }
             ]
